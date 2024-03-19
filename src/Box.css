@@ -1,0 +1,32 @@
+/* src/Box.css */
+.chat-box {
+    width: 30%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    height: fit-content;
+  }
+  
+  .chat-box.active {
+    border-color: #333;
+  }
+  
+  .chat-window {
+    height: auto;
+    overflow-y: auto;
+    padding: 10px;
+    border: 0;
+  }
+  
+  .message {
+    margin-bottom: 5px;
+  }
+  
+  .chat-box-title {
+    background-color: #f0f0f0;
+    padding: 10px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc; 
+  }
